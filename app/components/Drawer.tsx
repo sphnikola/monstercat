@@ -1,69 +1,51 @@
 import bars from "../../public/bars-solid.svg";
+import white_logo from "../../public/monstercat-logo-white.svg";
 import Image from "next/image";
+import NavIcons from "./NavIcons";
 export default function Drawer() {
-  type NavImage = {
-    src: string;
-    href: string;
-    alt: string;
-    width: number;
-    height: number;
-  };
+  // type NavImage = {
+  //   src: string;
+  //   href: string;
+  //   alt: string;
+  //   width: number;
+  //   height: number;
+  //   id: number;
+  // };
 
-  const navImages: NavImage[] = [
-    {
-      src: "/public/instagram-logo-24.png",
-      href: "#",
-      alt: "instagram icon",
-      width: 24,
-      height: 24,
-    },
-    {
-      src: "/public/tiktok-logo-24.png",
-      href: "#",
-      alt: "tiktok icon",
-      width: 24,
-      height: 24,
-    },
-    {
-      src: "/public/x-twitter.svg",
-      href: "#",
-      alt: "twitter icon",
-      width: 24,
-      height: 24,
-    },
-    {
-      src: "/public/twitch.svg",
-      href: "#",
-      alt: "twitch icon",
-      width: 24,
-      height: 24,
-    },
-    {
-      src: "/public/facebook.svg",
-      href: "#",
-      alt: "facebokk icon",
-      width: 24,
-      height: 24,
-    },
-    {
-      src: "/public/discord-logo-24.png",
-      href: "#",
-      alt: "discord icon",
-      width: 24,
-      height: 24,
-    },
-    {
-      src: "/public/play-circle-regular-24.png",
-      href: "#",
-      alt: "play icon",
-      width: 24,
-      height: 24,
-    },
-  ];
+  // const x: string = "/public/x-twitter.svg";
+  // const twitch: string = "/public/twitch.svg";
+  // const fb: string = "/public/facebook.svg";
+
+  // const navImages: NavImage[] = [
+  //   {
+  //     src: x,
+  //     href: "#",
+  //     alt: "twitter icon",
+  //     width: 24,
+  //     height: 24,
+  //     id: 3,
+  //   },
+  //   {
+  //     src: twitch,
+  //     href: "#",
+  //     alt: "twitch icon",
+  //     width: 24,
+  //     height: 24,
+  //     id: 4,
+  //   },
+  //   {
+  //     src: fb,
+  //     href: "#",
+  //     alt: "facebokk icon",
+  //     width: 24,
+  //     height: 24,
+  //     id: 5,
+  //   },
+  // ];
 
   return (
-    <div className="flex flex-col gap-y-4">
-      <div className="drawer drawer-end">
+    <div>
+      <div className="drawer drawer-end ">
         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           {/* Page content here */}
@@ -79,17 +61,21 @@ export default function Drawer() {
             {/* Open drawer */}
           </label>
         </div>
-        <div className="drawer-side">
+        <div className="drawer-side ">
           <label
             htmlFor="my-drawer"
             aria-label="close sidebar"
             className="drawer-overlay "
           ></label>
-          <ul className="menu p-4 w-[36rem] min-h-full bg-base-200 text-base-content">
+          <ul className="menu p-4 w-80 min-h-full  text-base-content bg-black">
             {/* Sidebar content here */}
-            <li className="flex flex-row justify-between">
-              <h1>hello</h1>
-              <label htmlFor="my-drawer" aria-label="close sidebar">
+            <li className="flex flex-row justify-between items-center">
+              <Image src={white_logo} alt="logo inside drawer" width={200} />
+              <label
+                htmlFor="my-drawer"
+                aria-label="close sidebar"
+                className="text-3xl text-white font-bold"
+              >
                 x
               </label>
             </li>

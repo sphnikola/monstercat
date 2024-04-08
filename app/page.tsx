@@ -2,7 +2,7 @@
 
 export default function Home() {
   return (
-    <main>
+    <main className="max-w-3xl mx-auto relative -top-[190px] z-[-1]">
       <h1 className=" text-yellow-400">Hello World!</h1>
       {/* <Drawer /> */}
       <h4>
