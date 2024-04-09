@@ -1,17 +1,17 @@
-import x from "../../public/x-twitter.svg";
-import twitch from "../../public/twitch.svg";
-import fb from "../../public/facebook.svg";
-import ig from "../../public/instagram-logo-24.png";
-import play from "../../public/play-circle-regular-24.png";
+import x from "../../public/bxl-twitter.svg";
+import twitch from "../../public/bxl-twitch.svg";
+import fb from "../../public/bxl-facebook-circle.svg";
+import ig from "../../public/bxl-instagram.svg";
+import play from "../../public/bx-play-circle.svg";
 import tiktok from "../../public/tiktok-logo-24.png";
-import discord from "../../public/discord-logo-24.png";
+import discord from "../../public/bxl-discord.svg";
 
 import Image from "next/image";
 
 export default function NavIcons() {
   return (
-    <div className="mt-6">
-      <ul className="inline-flex  md:flex-col md:gap-y-3">
+    <div className="xl:mt-10">
+      <ul className="flex flex-row  gap-x-3 xl:flex-col xl:gap-x-5">
         <li>
           <Image
             src={ig}
