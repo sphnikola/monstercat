@@ -1,5 +1,3 @@
-// import Drawer from "./components/Drawer";
-
 import Navbar from "./components/Navbar";
 
 export default function Home() {
@@ -7,6 +5,7 @@ export default function Home() {
     <>
       <div className="sectionBg"></div>
       <div className="">
+        {/* try to make navbar fixed */}
         <Navbar />
       </div>
       <div className="absolute -bottom-[300px]">

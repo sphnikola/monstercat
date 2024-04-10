@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body,
-html {
-  height: 100%;
-} */
-
 body,
 html {
   background-image: url("../public/background-tile.webp");
