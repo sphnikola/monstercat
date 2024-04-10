@@ -8,7 +8,54 @@ export default function Home() {
         {/* try to make navbar fixed */}
         <Navbar />
       </div>
-      <div className="absolute -bottom-[300px]">
+      <div className="absolute top-[300px]">
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
+        <h2>guy</h2>
         <h2>guy</h2>
         <h2>guy</h2>
         <h2>guy</h2>
