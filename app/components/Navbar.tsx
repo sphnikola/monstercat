@@ -4,9 +4,9 @@ import logo from "@/public/monstercat-logo.webp";
 import NavIcons from "./NavIcons";
 export default function Navbar() {
   return (
-    <header className="bg-[rgba(0,0,0,0.7)] xl:bg-[rgba(0,0,0,0)] relative -top-[760px] ">
-      <div className="px-3 ">
-        <nav className=" flex flex-row justify-between items-center xl:items-start ">
+    <header className="  ">
+      <div className=" ">
+        <nav className=" flex flex-row justify-between items-center xl:items-start w-full fixed top-0 px-5 bg-[rgba(0,0,0,0.7)] xl:bg-[rgba(0,0,0,0)]">
           {/* <h2>Hello Friend!</h2> */}
           {/* <h3>mine</h3> */}
           <Image
