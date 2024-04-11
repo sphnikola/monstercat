@@ -10,8 +10,8 @@ import Image from "next/image";
 
 export default function NavIcons() {
   return (
-    <div className="xl:mt-10">
-      <ul className="flex flex-row  gap-x-3 xl:flex-col xl:gap-x-5">
+    <div className="xxl:mt-10">
+      <ul className="flex flex-row  gap-x-3 xxl:flex-col xxl:gap-x-5">
         <li>
           <Image
             src={ig}

@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <header className="  ">
       <div className=" ">
-        <nav className=" flex flex-row justify-between items-center xl:items-start w-full fixed top-0 px-5 bg-[rgba(0,0,0,0.7)] xl:bg-[rgba(0,0,0,0)]">
+        <nav className=" flex flex-row justify-between items-center xxl:items-start w-full fixed top-0 px-5 bg-[rgba(0,0,0,0.7)] xxl:bg-[rgba(0,0,0,0)] z-10 ">
           <Image
             src={logo}
             alt="monstercat logo"
@@ -14,12 +14,12 @@ export default function Navbar() {
             height={50}
             className=" object-contain"
           />
-          <div className="hidden md:flex xl:hidden">
+          <div className="hidden md:flex xxl:hidden">
             <NavIcons />
           </div>
           <div className="">
             <Drawer />
-            <div className="hidden xl:flex">
+            <div className="hidden xxl:flex">
               <NavIcons />
             </div>
           </div>
