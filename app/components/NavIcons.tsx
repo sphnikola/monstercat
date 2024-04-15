@@ -7,13 +7,13 @@ import tiktok from "@/public/tiktok-logo-24.png";
 import discord from "@/public/bxl-discord.svg";
 import Image from "next/image";
 
-export interface Image {
+export interface ImageType {
   name: string;
   src: string;
   alt: string;
 }
 
-const images: Image[] = [
+const images: ImageType[] = [
   { name: "x", src: x, alt: "navigation icons of twitter" },
   { name: "twitch", src: twitch, alt: "navigation icons of twitch" },
   {
