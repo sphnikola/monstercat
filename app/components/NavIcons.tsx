@@ -1,10 +1,10 @@
-import x from "../../public/bxl-twitter.svg";
-import twitch from "../../public/bxl-twitch.svg";
-import fb from "../../public/bxl-facebook-circle.svg";
-import ig from "../../public/bxl-instagram.svg";
-import play from "../../public/bx-play-circle.svg";
-import tiktok from "../../public/tiktok-logo-24.png";
-import discord from "../../public/bxl-discord.svg";
+import x from "@/public/bxl-twitter.svg";
+import twitch from "@/public/bxl-twitch.svg";
+import fb from "@/public/bxl-facebook-circle.svg";
+import ig from "@/public/bxl-instagram.svg";
+import play from "@/public/bx-play-circle.svg";
+import tiktok from "@/public/tiktok-logo-24.png";
+import discord from "@/public/bxl-discord.svg";
 import Image from "next/image";
 
 interface Image {

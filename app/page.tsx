@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import albumCover from "../public/album cover.webp";
+import Streams from "./components/Streams";
 
 export default function Home() {
   return (
@@ -38,9 +39,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section className="lg:ml-12">
-          <h2>Stream it your way</h2>
-        </section>
+        <Streams />
       </div>
     </>
   );
