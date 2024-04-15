@@ -5,8 +5,8 @@ import ig from "../../public/bxl-instagram.svg";
 import play from "../../public/bx-play-circle.svg";
 import tiktok from "../../public/tiktok-logo-24.png";
 import discord from "../../public/bxl-discord.svg";
-
 import Image from "next/image";
+
 interface Image {
   name: string;
   src: string;
@@ -42,6 +42,7 @@ const images: Image[] = [
     alt: "navigation icons of discord",
   },
 ];
+
 export default function NavIcons() {
   return (
     <div className="xxl:mt-10">
@@ -55,4 +56,3 @@ export default function NavIcons() {
     </div>
   );
 }
-// export default NavIcons;
