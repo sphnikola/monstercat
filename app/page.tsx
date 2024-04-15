@@ -10,8 +10,8 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div className=" absolute top-20 left-0 right-0 w-full px-2">
-        <div className="grid justify-center max-w-[500px] relative mx-auto lg:max-w-[712px] xl:grid-cols-2 xl:max-w-7xl  xl:items-end xl:gap-x-6 xl:justify-items-start ">
+      <div className=" absolute top-20 left-0 right-0  px-2 max-w-[500px]  mx-auto lg:max-w-[712px] xl:max-w-7xl">
+        <div className="grid justify-center  relative   xl:grid-cols-2   xl:items-end xl:gap-x-6 xl:justify-items-start ">
           <div className="grid ">
             <Image
               src={albumCover}
