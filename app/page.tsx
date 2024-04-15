@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
 
-        <section>
+        <section className="lg:ml-12">
           <h2>Stream it your way</h2>
         </section>
       </div>

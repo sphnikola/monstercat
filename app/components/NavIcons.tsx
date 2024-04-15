@@ -12,13 +12,12 @@ export default function NavIcons() {
   return (
     <div className="xxl:mt-10">
       <ul className="flex flex-row  gap-x-3 xxl:flex-col xxl:gap-x-5">
-        <li>
+        <li className=" text-[#874e4e]">
           <Image
             src={ig}
             alt="instagram logo"
             // width={24}
             // height={24}
-            className=" text-white"
           />
         </li>
         <li>
