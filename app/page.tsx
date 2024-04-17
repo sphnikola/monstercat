@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import albumCover from "../public/album cover.webp";
 import Streams from "./components/Streams";
 import TrackList from "./components/TrackList";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
         <Navbar />
       </div>
 
-      <div className=" absolute top-20 left-0 right-0  px-2 max-w-[500px]  mx-auto lg:max-w-[712px] xl:max-w-7xl xl:min-w-[1080px]">
+      <div className=" absolute top-20 left-0 right-0  px-2 max-w-[500px]  mx-auto lg:max-w-[712px] xl:max-w-6xl xl:min-w-[1080px]">
         <div className="grid justify-center  relative   xl:grid-cols-2   xl:items-end  xl:justify-items-start mb-20 ">
           <div className="grid gap-y-5 lg:gap-y-0  ">
             <Image
@@ -50,6 +51,7 @@ export default function Home() {
 
         <Streams />
         <TrackList />
+        <Footer />
       </div>
     </>
   );
