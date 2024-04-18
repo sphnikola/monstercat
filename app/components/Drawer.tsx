@@ -3,46 +3,6 @@ import white_logo from "../../public/monstercat-logo-white.svg";
 import Image from "next/image";
 import NavIcons from "./NavIcons";
 export default function Drawer() {
-  // type NavImage = {
-  //   src: string;
-  //   href: string;
-  //   alt: string;
-  //   width: number;
-  //   height: number;
-  //   id: number;
-  // };
-
-  // const x: string = "/public/x-twitter.svg";
-  // const twitch: string = "/public/twitch.svg";
-  // const fb: string = "/public/facebook.svg";
-
-  // const navImages: NavImage[] = [
-  //   {
-  //     src: x,
-  //     href: "#",
-  //     alt: "twitter icon",
-  //     width: 24,
-  //     height: 24,
-  //     id: 3,
-  //   },
-  //   {
-  //     src: twitch,
-  //     href: "#",
-  //     alt: "twitch icon",
-  //     width: 24,
-  //     height: 24,
-  //     id: 4,
-  //   },
-  //   {
-  //     src: fb,
-  //     href: "#",
-  //     alt: "facebokk icon",
-  //     width: 24,
-  //     height: 24,
-  //     id: 5,
-  //   },
-  // ];
-
   return (
     <div>
       <div className="drawer drawer-end ">
@@ -80,8 +40,9 @@ export default function Drawer() {
               </label>
             </li>
             <li>
-              <a>Sidebar Item 1</a>
+              <a>Sidebar Item 2</a>
             </li>
+
             <li>
               <a>Sidebar Item 2</a>
             </li>

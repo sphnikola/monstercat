@@ -34,11 +34,10 @@ export default function Streams() {
       <h2 className="font-semibold text-[2.5rem] my-10 text-white leading-[35px] uppercase">
         Stream it your way
       </h2>
-      <ul className="inline-flex items-center gap-x-4 border-[1px] broder-white border-solid">
+      <ul className="inline-flex items-center gap-x-4 border-[1px] broder-white border-solid px-3">
         {streamIcons.map((images, index) => (
           <li key={index} className="">
             <a className="flex gap-x-3">
-              {images.name === "bandcamp" && <a>Player</a>}
               <Image src={images.src} alt={images.alt} width={24} height={24} />
             </a>
           </li>

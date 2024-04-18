@@ -21,7 +21,7 @@ export default function Home() {
               alt="cover image for album"
               className="xl:max-w-[400px] xl:ml-12 "
             />
-            <div className=" lg:transform lg:-rotate-90 lg:absolute  lg:-left-[95px] xl:-left-[10] lg:top-[459px] xl:top-[263px]   font-normal italic mb-5 lg:mb-0 lg:text-[18px  text-base">
+            <div className=" lg:transform lg:-rotate-90 lg:absolute text-white lg:-left-[95px] xl:-left-[10] lg:top-[459px] xl:top-[263px]   font-normal italic mb-5 lg:mb-0 lg:text-[18px  text-base">
               <span className=" text-[rgb(80,165,132)] italic font-semibold ] ">
                 Instinct
               </span>{" "}
