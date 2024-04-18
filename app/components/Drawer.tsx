@@ -27,23 +27,40 @@ export default function Drawer() {
             aria-label="close sidebar"
             className="drawer-overlay "
           ></label>
-          <ul className="menu p-4 w-80 min-h-full  text-base-content bg-black">
+          <ul className="menu p-4 w-80 min-h-full  bg-black text-3xl text-white font-bold">
             {/* Sidebar content here */}
             <li className="flex flex-row justify-between items-center">
               <Image src={white_logo} alt="logo inside drawer" width={200} />
-              <label
-                htmlFor="my-drawer"
-                aria-label="close sidebar"
-                className="text-3xl text-white font-bold"
-              >
+              <label htmlFor="my-drawer" aria-label="close sidebar">
                 x
               </label>
             </li>
-            <li>
+            <li className="text-xl">
               <a>Sidebar Item 2</a>
             </li>
 
-            <li>
+            <li className="text-xl">
+              <a>Sidebar Item 2</a>
+            </li>
+            <li className="text-xl">
+              <a>Sidebar Item 2</a>
+            </li>
+            <li className="text-xl">
+              <a>Sidebar Item 2</a>
+            </li>
+            <li className="text-xl">
+              <a>Sidebar Item 2</a>
+            </li>
+            <li className="text-xl">
+              <a>Sidebar Item 2</a>
+            </li>
+            <li className="text-xl">
+              <a>Sidebar Item 2</a>
+            </li>
+            <li className="text-xl">
+              <a>Sidebar Item 2</a>
+            </li>
+            <li className="text-xl">
               <a>Sidebar Item 2</a>
             </li>
           </ul>
