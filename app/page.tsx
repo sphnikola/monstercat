@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Navbar from "./components/Navbar";
-import albumCover from "../public/album cover.webp";
-import Streams from "./components/Streams";
-import TrackList from "./components/TrackList";
-import Footer from "./components/Footer";
+import Navbar from "@/components/Navbar";
+
+import albumCover from "@/public/album cover.webp";
+import Streams from "@/components/Streams";
+import TrackList from "@/components/TrackList";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (

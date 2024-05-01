@@ -1,7 +1,6 @@
-import bars from "../../public/bars-solid.svg";
-import white_logo from "../../public/monstercat-logo-white.svg";
+import bars from "@/public/bars-solid.svg";
+import white_logo from "@/public/monstercat-logo-white.svg";
 import Image from "next/image";
-import NavIcons from "./NavIcons";
 export default function Drawer() {
   return (
     <div>
