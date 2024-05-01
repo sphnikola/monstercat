@@ -49,7 +49,7 @@ const footerIcons: ImageType[] = [
 ];
 export default function Footer() {
   return (
-    <div>
+    <div className="mb-5">
       <hr className="" />
       <nav className="grid lg:grid-cols-3 mt-10">
         <ul className="uppercase text-white">
@@ -67,7 +67,7 @@ export default function Footer() {
         <div className="my-10 lg:mt-0 space-y-4">
           <h3 className="uppercase">monstercat news</h3>
           <p className="text-[14px] font-medium leading-[24.5px] tracking-[1.4px]  lg:max-w-xs lg:pr-3 ">
-            Don't miss a thing, stay up to date with the latest news from us
+            Do not miss a thing, stay up to date with the latest news from us
           </p>
           <input
             type="text"
@@ -99,7 +99,7 @@ export default function Footer() {
         land of the Coast Salish peoples, including the territories of the
         Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh
         (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations, on which
-        Monstercat's Vancouver HQ stands.
+        Monstercats Vancouver HQ stands.
       </p>
       <p className="text-center text-xs mt-5">
         We acknowledge the unceded and ancestral territories of the

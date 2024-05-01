@@ -35,33 +35,30 @@ export default function Drawer() {
                 x
               </label>
             </li>
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
+            <li className="text-lg mt-5">
+              <a>Music</a>
             </li>
 
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
+            <li className="text-lg">
+              <a>Artists</a>
             </li>
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
+            <li className="text-lg">
+              <a>About</a>
             </li>
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
+            <li className="text-lg">
+              <a>News</a>
             </li>
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
+            <li className="text-lg">
+              <a>Events</a>
             </li>
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
+            <li className="text-lg">
+              <a>Programming</a>
             </li>
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
+            <li className="text-lg">
+              <a>Gold</a>
             </li>
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
-            </li>
-            <li className="text-xl">
-              <a>Sidebar Item 2</a>
+            <li className="text-lg">
+              <a>Partners</a>
             </li>
           </ul>
         </div>
