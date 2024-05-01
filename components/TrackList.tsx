@@ -71,11 +71,11 @@ const trackDetails: trackDetailsProps[] = [
 ];
 export default function TrackList() {
   return (
-    <section className="lg:ml-12">
+    <section className="lg:mx-12">
       <h2 className="font-semibold text-[2.5rem] my-10 text-white leading-[35px]">
         Track Lists
       </h2>
-      <ol>
+      <ol className="flex flex-col">
         {trackDetails.map((details, index) => (
           <li
             key={index}

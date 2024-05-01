@@ -9,6 +9,7 @@ html {
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+  overflow-x: hidden;
 }
 body {
   height: 100vh;
