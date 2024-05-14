@@ -78,7 +78,7 @@ export default function Footer() {
       </nav>
       <hr className="mb-10" />
       <div className="grid lg:grid-cols-2 lg:justify-center">
-        <p>2011 - 2024 © Monstercat, All Rights Reserved</p>
+        <p className="text-white">2011 - 2024 © Monstercat, All Rights Reserved</p>
         <ul className="inline-flex items-center gap-x-4 lg:ml-auto">
           {footerIcons.map((images, index) => (
             <li key={index} className="">
