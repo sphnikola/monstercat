@@ -64,7 +64,7 @@ export default function Footer() {
           <li>privacy policy</li>
         </ul>
 
-        <div className="my-10 lg:mt-0 space-y-4">
+        <div className="my-10 lg:mt-0 space-y-4 text-white">
           <h3 className="uppercase">monstercat news</h3>
           <p className="text-[14px] font-medium leading-[24.5px] tracking-[1.4px]  lg:max-w-xs lg:pr-3 ">
             Do not miss a thing, stay up to date with the latest news from us
@@ -94,14 +94,14 @@ export default function Footer() {
           ))}
         </ul>
       </div>
-      <p className="text-center text-xs mt-5">
+      <p className="text-center text-xs mt-5 text-white">
         We acknowledge with gratitude the traditional, ancestral and unceded
         land of the Coast Salish peoples, including the territories of the
         Sḵwx̱wú7mesh (Squamish), Stó:lō and Səl̓ílwətaʔ/Selilwitulh
         (Tsleil-Waututh) and xʷməθkʷəy̓əm (Musqueam) Nations, on which
         Monstercats Vancouver HQ stands.
       </p>
-      <p className="text-center text-xs mt-5">
+      <p className="text-center text-xs mt-5 text-white">
         We acknowledge the unceded and ancestral territories of the
         Gabrielino/Tongva peoples on which our LA team live and work.
       </p>
